@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('nrc');
             $table->string('email');
             $table->string('primary_phone');
-            $table->string('secondary_phone');
+            $table->string('other_phone');
             $table->string('physical_address');
             $table->string('town');
             $table->timestamps();
